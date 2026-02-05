@@ -1,2 +1,1 @@
-# Data-Analytics-Projects
-A collection of data analytics projects focused on business data, data modeling, and decision support. The purpose of this repository is to showcasec descriptive and predictive analyses using data, with emphasis on structure, performance drivers, and actionable insights.
+A portfolio of data analytics projects demonstrating data modeling, descriptive and predictive analysis on business related datasets, with a strong focus on business context and decision making.
