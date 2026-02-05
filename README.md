@@ -2,6 +2,9 @@
 
 DKFLOW is a Danish e-commerce company selling multiple product categories across danish regions. The business has experienced steady growth over recent years, accompanied by increasing operational complexity and rising expectations for delivery performance. This project analyzes order flow, delivery outcomes, and product performance using descriptive dashboards to provide management with a clear overview of operational performance.
 
+<img width="657" height="327" alt="DKFLOW logo" src="https://github.com/user-attachments/assets/5f172040-cf67-4817-85ab-0bf57eec3449" />
+
+
 # Project Goals
 - Provide a consolidated overview of order volume and delivery performance over time
 - Identify underperforming regions and cities based on delivery targets
