@@ -17,8 +17,9 @@ The analysis is based on data representing customers, orders, products, and paym
 
 Data cleaning and transformations were performed with power Query in Power BI to support consistent aggregation and dashboard-based analysis.
 
+
 <img width="1573" height="802" alt="image" src="https://github.com/user-attachments/assets/b9b6b0f3-587a-4a25-ab61-ef6862da957a" />
-_Screenshot of Data structure_
+Screenshot of Data structure
 
 # Executive Summary
 The analysis indicates that DKFLOW operates a broadly stable and scalable order fulfillment network, while also exposing structural performance differences across locations and product categories that impact delivery reliability.
@@ -29,8 +30,9 @@ The analysis indicates that DKFLOW operates a broadly stable and scalable order 
 - Delivery performance is uneven across regions and product categories
 - Order volume is relatively well distributed across product categories
 
+
 <img width="1276" height="716" alt="image" src="https://github.com/user-attachments/assets/92a32e16-595b-404d-a0a4-8dcf9709e070" />
-_Screenshot of business metrics overview_
+Screenshot of business metrics overview
 
 ### Trends
 Order volume and revenue show a sustained upward trend across the period, with growth accelerating into 2017 and stabilising at a higher level in 2018. Delivery performance remains broadly stable over time, but late deliveries fluctuate month to month and tend to increase during high-volume periods, indicating capacity sensitivity. Average order value stays relatively flat despite higher volumes, suggesting that growth is primarily volume-driven rather than driven by changes in pricing or product mix.
@@ -40,9 +42,14 @@ Order volume and revenue show a sustained upward trend across the period, with g
 - Late deliveries increase during peak volume periods
 - Average order value remains stable, suggesting that revenue growth is primarily volume-driven.
 
+
+<img width="1278" height="717" alt="image" src="https://github.com/user-attachments/assets/f07e76ae-0ee4-43b2-a8d2-27291d848b62" />
+Screenshot of Order & Product Performance view
+
+
 # Insights Deep Dive
 
-#Delivery Performance and Network Stability
+## Delivery Performance and Network Stability
 At the overall level, DKFLOW’s delivery performance remains within defined targets, with a stable on-time delivery rate across the observed period. However, this stability masks meaningful variation across the delivery locations. Several cities consistently exceed the late delivery threshold, indicating that performance challenges are geographically concentrated rather than systemic. This suggests that delivery reliability is driven more by local execution conditions than by overall network design.
 
 ## Volume Growth and Operational Pressure
@@ -58,4 +65,26 @@ Order volume is relatively well distributed across product categories, reducing 
 Revenue growth closely follows order volume growth, while average order value remains broadly stable. This indicates that growth is primarily driven by increased transaction volume rather than higher value per order. As a result, future revenue expansion may place additional pressure on fulfillment operations unless efficiency improvements or mix changes are introduced.
 
 # Recommendations
+## 1. Target Localised Delivery Issues
+Delivery performance should be addressed at a local level, as underperformance is concentrated in specific cities rather than across the entire network.
+- Prioritise operational reviews in consistently underperforming cities
+- Compare processes and capacity utilisation between high- and low-performing locations
+- Use best-performing cities as internal benchmarks
 
+## 2. Strengthen Capacity Planning During Peak Periods
+The increase in late deliveries during high-volume periods suggests limited buffer capacity when demand peaks.
+- Introduce short-term capacity adjustments during forecasted high-volume months
+- Monitor late delivery volumes alongside order volume to detect early pressure signals
+- Stress-test fulfillment capacity against projected growth scenarios
+
+## 3. Monitor Product Categories with Diverging Performance
+Year-over-year performance differs across product categories, indicating that growth and operational impact are not uniform across the product portfolio.
+- Track delivery performance and growth jointly at product category level
+- Identify categories where growth coincides with declining delivery reliability
+- Use category-level insights to inform assortment and operational planning decisions
+
+## 4. Improve Growth Quality, Not Just Growth Volume
+Revenue growth is primarily driven by increased order volume, while average order value remains stable.
+- Assess opportunities to increase order value through product mix or bundling
+- Evaluate whether operational efficiency improvements can offset volume-driven growth
+- Monitor potential perational strain due to volume growth increases over time
