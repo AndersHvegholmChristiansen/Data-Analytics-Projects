@@ -1,1 +1,1 @@
-A portfolio of data analytics projects demonstrating data modeling, descriptive and predictive analysis on business related datasets, with a strong focus on business context and decision making.
+A portfolio of data analytics projects by Anders Christiansen. With the purpose of demonstrating data modeling, exploratory analysis, and predictive techniques on datasets, with a main focus on business value and decision making.
