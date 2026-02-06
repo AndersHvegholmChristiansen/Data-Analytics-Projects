@@ -18,7 +18,7 @@ The analysis is based on data representing customers, orders, products, and paym
 - Product Data: Product categories and attributes that enables assessing product mix and performance trends.
 - Payment Data: Order-level payment values enabling revenue and order value analysis.
 
-Data cleaning and transformations were performed with power Query in Power BI to support consistent aggregation and dashboard-based analysis.
+Data cleaning and transformations were performed with Power Query in Power BI to ensure data quality, consistent aggregation and dashboard-based analysis.
 
 
 <img width="1573" height="802" alt="image" src="https://github.com/user-attachments/assets/b9b6b0f3-587a-4a25-ab61-ef6862da957a" />
@@ -41,19 +41,18 @@ Screenshot of business metrics overview
 Order volume and revenue show a sustained upward trend across the period, with growth accelerating into 2017 and stabilising at a higher level in 2018. Delivery performance remains broadly stable over time, but late deliveries fluctuate month to month and tend to increase during high-volume periods, indicating capacity sensitivity. Average order value stays relatively flat despite higher volumes, suggesting that growth is primarily volume-driven rather than driven by changes in pricing or product mix.
 
 - Clear upward trend in both orders and revenue over time
-- Growth stabilises at a higher level rather than showing volatility
+- Growth has stabilised at a higher level rather than showing volatility
 - Late deliveries increase during peak volume periods
 - Average order value remains stable, suggesting that revenue growth is primarily volume-driven.
 
-
-<img width="1278" height="717" alt="image" src="https://github.com/user-attachments/assets/f07e76ae-0ee4-43b2-a8d2-27291d848b62" />
+<img width="1149" height="643" alt="image" src="https://github.com/user-attachments/assets/c6d25d24-67ea-4d1f-b465-62ab64e111e0" />
 Screenshot of Order & Product Performance view
 
 
 # Insights Deep Dive
 
 ## Delivery Performance and Network Stability
-At the overall level, DKFLOW’s delivery performance remains within defined targets, with a stable on-time delivery rate across the observed period. However, this stability masks meaningful variation across the delivery locations. Several cities consistently exceed the late delivery threshold, indicating that performance challenges are geographically concentrated rather than systemic. This suggests that delivery reliability is driven more by local execution conditions than by overall network design.
+At the overall level, DKFLOW’s delivery performance remains within defined targets, with a stable on-time delivery rate across the observed period. However, this stability masks meaningful variation across the delivery locations. Several cities consistently exceed the late delivery threshold, indicating that performance challenges are geographically concentrated rather than systemic. This suggests that delivery reliability is driven more by local execution conditions.
 
 ## Volume Growth and Operational Pressure
 
